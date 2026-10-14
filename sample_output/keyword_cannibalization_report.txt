@@ -1,0 +1,66 @@
+==========================================================================================
+BÁO CÁO KEYWORD CANNIBALIZATION
+Website : https://example.com/ (DEMO)
+Kỳ dữ liệu: 2026-09-12 -> 2026-10-11
+Số từ khoá bị xung đột: 7
+  CAO: 4 | TRUNG BÌNH: 2 | THẤP: 1
+Chú thích: ★ = URL chính (nhiều clicks nhất) | Pos = thứ hạng trung bình
+==========================================================================================
+
+[1] Từ khoá: "cách viết bài chuẩn seo"   — Mức độ: CAO
+    2 URL tranh nhau | Tổng clicks: 236 | Tổng impressions: 9,300
+    ├── ★ https://example.com/blog/cach-viet-bai-chuan-seo
+    │        Clicks:    167 | Impressions:    5,200 ( 55.9%) | Pos:    7.8 | CTR:  3.21%
+    └──   https://example.com/blog/huong-dan-viet-content-seo
+             Clicks:     69 | Impressions:    4,100 ( 44.1%) | Pos:    9.4 | CTR:  1.68%
+    ➜ Gợi ý: Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+
+[2] Từ khoá: "seo onpage là gì"   — Mức độ: CAO
+    3 URL tranh nhau | Tổng clicks: 447 | Tổng impressions: 7,600
+    ├── ★ https://example.com/blog/seo-onpage-la-gi
+    │        Clicks:    313 | Impressions:    3,800 ( 50.0%) | Pos:    5.1 | CTR:  8.24%
+    ├──   https://example.com/blog/checklist-seo-onpage
+    │        Clicks:    130 | Impressions:    2,900 ( 38.2%) | Pos:    6.7 | CTR:  4.48%
+    └──   https://example.com/dich-vu/seo-onpage
+             Clicks:      4 | Impressions:      900 ( 11.8%) | Pos:   14.2 | CTR:  0.44%
+    ➜ Gợi ý: Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+
+[3] Từ khoá: "ga4 là gì"   — Mức độ: CAO
+    2 URL tranh nhau | Tổng clicks: 423 | Tổng impressions: 4,800
+    ├── ★ https://example.com/blog/ga4-la-gi
+    │        Clicks:    309 | Impressions:    2,600 ( 54.2%) | Pos:    4.3 | CTR: 11.88%
+    └──   https://example.com/blog/huong-dan-ga4-cho-nguoi-moi
+             Clicks:    114 | Impressions:    2,200 ( 45.8%) | Pos:    6.0 | CTR:  5.18%
+    ➜ Gợi ý: Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+
+[4] Từ khoá: "example seo agency"   — Mức độ: CAO
+    2 URL tranh nhau | Tổng clicks: 323 | Tổng impressions: 1,100
+    ├── ★ https://example.com/
+    │        Clicks:    257 | Impressions:      800 ( 72.7%) | Pos:    1.2 | CTR: 32.12%
+    └──   https://example.com/gioi-thieu
+             Clicks:     66 | Impressions:      300 ( 27.3%) | Pos:    2.5 | CTR: 22.00%
+    ➜ Gợi ý: Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+
+[5] Từ khoá: "backlink là gì"   — Mức độ: TRUNG BÌNH
+    2 URL tranh nhau | Tổng clicks: 938 | Tổng impressions: 5,020
+    ├── ★ https://example.com/blog/backlink-la-gi
+    │        Clicks:    936 | Impressions:    4,400 ( 87.6%) | Pos:    2.4 | CTR: 21.27%
+    └──   https://example.com/blog/cach-dat-backlink
+             Clicks:      2 | Impressions:      620 ( 12.4%) | Pos:   25.0 | CTR:  0.32%
+    ➜ Gợi ý: URL phụ vẫn lấy đáng kể hiển thị -> phân biệt lại search intent / tối ưu lại title, H1, internal link trỏ về URL chính.
+
+[6] Từ khoá: "bảng giá dịch vụ seo"   — Mức độ: TRUNG BÌNH
+    2 URL tranh nhau | Tổng clicks: 290 | Tổng impressions: 2,280
+    ├── ★ https://example.com/bang-gia-seo
+    │        Clicks:    290 | Impressions:    1,900 ( 83.3%) | Pos:    3.2 | CTR: 15.26%
+    └──   https://example.com/blog/chi-phi-seo-bao-nhieu
+             Clicks:      0 | Impressions:      380 ( 16.7%) | Pos:   18.5 | CTR:  0.00%
+    ➜ Gợi ý: URL phụ vẫn lấy đáng kể hiển thị -> phân biệt lại search intent / tối ưu lại title, H1, internal link trỏ về URL chính.
+
+[7] Từ khoá: "schema markup"   — Mức độ: THẤP
+    2 URL tranh nhau | Tổng clicks: 502 | Tổng impressions: 3,060
+    ├── ★ https://example.com/blog/schema-markup
+    │        Clicks:    502 | Impressions:    3,000 ( 98.0%) | Pos:    3.1 | CTR: 16.73%
+    └──   https://example.com/blog/seo-ky-thuat-tong-hop
+             Clicks:      0 | Impressions:       60 (  2.0%) | Pos:   48.0 | CTR:  0.00%
+    ➜ Gợi ý: Google đã ưu tiên rõ 1 URL -> theo dõi thêm; có thể bỏ qua hoặc thêm canonical.

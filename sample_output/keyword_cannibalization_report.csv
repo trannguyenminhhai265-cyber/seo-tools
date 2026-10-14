@@ -1,0 +1,16 @@
+﻿Muc_Do,Tu_Khoa,So_URL_Xung_Dot,Tong_Impressions_Tu_Khoa,Tong_Clicks_Tu_Khoa,URL,URL_Chinh,Clicks,Impressions,Ty_Trong_Impressions_%,Position,CTR_%,Goi_Y
+CAO,cách viết bài chuẩn seo,2,9300,236,https://example.com/blog/cach-viet-bai-chuan-seo,x,167,5200,55.9,7.8,3.21,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,cách viết bài chuẩn seo,2,9300,236,https://example.com/blog/huong-dan-viet-content-seo,,69,4100,44.1,9.4,1.68,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,seo onpage là gì,3,7600,447,https://example.com/blog/seo-onpage-la-gi,x,313,3800,50.0,5.1,8.24,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,seo onpage là gì,3,7600,447,https://example.com/blog/checklist-seo-onpage,,130,2900,38.2,6.7,4.48,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,seo onpage là gì,3,7600,447,https://example.com/dich-vu/seo-onpage,,4,900,11.8,14.2,0.44,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,ga4 là gì,2,4800,423,https://example.com/blog/ga4-la-gi,x,309,2600,54.2,4.3,11.88,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,ga4 là gì,2,4800,423,https://example.com/blog/huong-dan-ga4-cho-nguoi-moi,,114,2200,45.8,6.0,5.18,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,example seo agency,2,1100,323,https://example.com/,x,257,800,72.7,1.2,32.12,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+CAO,example seo agency,2,1100,323,https://example.com/gioi-thieu,,66,300,27.3,2.5,22.0,Các URL chia đều hiển thị & thứ hạng sát nhau -> cân nhắc GỘP nội dung vào URL chính và 301 redirect URL phụ.
+TRUNG BÌNH,backlink là gì,2,5020,938,https://example.com/blog/backlink-la-gi,x,936,4400,87.6,2.4,21.27,"URL phụ vẫn lấy đáng kể hiển thị -> phân biệt lại search intent / tối ưu lại title, H1, internal link trỏ về URL chính."
+TRUNG BÌNH,backlink là gì,2,5020,938,https://example.com/blog/cach-dat-backlink,,2,620,12.4,25.0,0.32,"URL phụ vẫn lấy đáng kể hiển thị -> phân biệt lại search intent / tối ưu lại title, H1, internal link trỏ về URL chính."
+TRUNG BÌNH,bảng giá dịch vụ seo,2,2280,290,https://example.com/bang-gia-seo,x,290,1900,83.3,3.2,15.26,"URL phụ vẫn lấy đáng kể hiển thị -> phân biệt lại search intent / tối ưu lại title, H1, internal link trỏ về URL chính."
+TRUNG BÌNH,bảng giá dịch vụ seo,2,2280,290,https://example.com/blog/chi-phi-seo-bao-nhieu,,0,380,16.7,18.5,0.0,"URL phụ vẫn lấy đáng kể hiển thị -> phân biệt lại search intent / tối ưu lại title, H1, internal link trỏ về URL chính."
+THẤP,schema markup,2,3060,502,https://example.com/blog/schema-markup,x,502,3000,98.0,3.1,16.73,Google đã ưu tiên rõ 1 URL -> theo dõi thêm; có thể bỏ qua hoặc thêm canonical.
+THẤP,schema markup,2,3060,502,https://example.com/blog/seo-ky-thuat-tong-hop,,0,60,2.0,48.0,0.0,Google đã ưu tiên rõ 1 URL -> theo dõi thêm; có thể bỏ qua hoặc thêm canonical.

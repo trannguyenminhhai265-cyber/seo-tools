@@ -1,0 +1,6 @@
+.env
+*.json
+!data/*.json
+__pycache__/
+.pytest_cache/
+push_to_github.bat
