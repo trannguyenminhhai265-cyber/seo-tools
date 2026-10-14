@@ -249,3 +249,9 @@ def test_demo_end_to_end(tmp_path):
     for f in ["pagespeed_red_alert.csv", "ga4_pagespeed_merged.csv", "pagespeed_vs_bounce.png"]:
         assert os.path.exists(tmp_path / f)
     assert b1.main(["--demo", "--output", str(tmp_path / "cd.csv")]) == 0
+
+
+def test_count_redirects():
+    m = pd.DataFrame({"URL": ["https://a.com/x", "https://a.com/y/", "https://a.com/z"],
+                      "Final_URL": ["https://b.com/", "https://a.com/y", ""]})
+    assert b3.count_redirects(m) == 1

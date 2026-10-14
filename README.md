@@ -12,6 +12,20 @@ Mỗi script có chế độ `--demo` chạy bằng dữ liệu giả lập (kh�
 
 ---
 
+## ▶ Chạy thật trên Google Colab
+
+Mở notebook **[`seo_tools_colab.ipynb`](https://colab.research.google.com/github/trannguyenminhhai265-cyber/seo-tools/blob/main/seo_tools_colab.ipynb)** và chạy lần lượt từng ô. Notebook có 2 chế độ:
+
+- **`API`**: có quyền vào GA4 và Search Console của một website. Chạy đúng GA4 Data API, Search Console API và PageSpeed Insights API như đề bài.
+- **`PUBLIC`**: chưa có website.
+  - Bài 1 và bài 3 dùng dữ liệu **GA4 thật** của Google Merchandise Store do Google công khai trên BigQuery (`bigquery-public-data.ga4_obfuscated_sample_ecommerce`, 11/2020–01/2021), xem `ga4_bigquery_public.py`.
+  - Bài 3 gọi **PageSpeed Insights API thật**.
+  - Bài 2 dùng dữ liệu mô phỏng vì Search Console không có dữ liệu công khai.
+
+  Lưu ý: tài khoản GA4 demo của Google không truy cập được bằng Data API.
+
+---
+
 ## 1. Cài đặt
 
 ```bash
@@ -26,7 +40,7 @@ Chạy thử ngay (không cần API):
 python bai1_content_decay.py --demo
 python bai2_keyword_cannibalization.py --demo
 python bai3_pagespeed_ga4.py --demo
-pytest -q            # 26 test kiểm tra công thức, bộ lọc và các trường hợp biên
+pytest -q            # 27 test kiểm tra công thức, bộ lọc và các trường hợp biên
 ```
 
 ## 2. Chuẩn bị quyền truy cập API (khi chạy với dữ liệu thật)
@@ -109,8 +123,10 @@ seo_tools/
 ├── bai1_content_decay.py
 ├── bai2_keyword_cannibalization.py
 ├── bai3_pagespeed_ga4.py
+├── ga4_bigquery_public.py           # lấy dữ liệu GA4 thật từ BigQuery public dataset (chế độ PUBLIC)
+├── seo_tools_colab.ipynb            # notebook chạy trên Google Colab
 ├── data/redirects_example.csv       # mẫu file redirect cho bài 1
-├── tests/test_seo_tools.py          # 26 unit test (pytest)
+├── tests/test_seo_tools.py          # 27 unit test (pytest)
 ├── sample_output/                   # kết quả khi chạy --demo
 ├── requirements.txt
 └── .env.example

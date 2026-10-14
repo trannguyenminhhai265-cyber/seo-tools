@@ -7,3 +7,5 @@ google-api-python-client>=2.100
 google-auth>=2.23
 python-dotenv>=1.0
 pytest>=7.0
+google-cloud-bigquery>=3.11
+db-dtypes>=1.1

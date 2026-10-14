@@ -154,6 +154,7 @@ def compute_content_decay(
         .reindex(columns=["GD1", "GD2"], fill_value=0)
         .reset_index()
     )
+    pivot.columns.name = None
 
     # % Giảm = (GĐ1 - GĐ2) / GĐ1 * 100  (tránh chia cho 0)
     gd1 = pivot["GD1"].astype(float)

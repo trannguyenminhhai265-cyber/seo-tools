@@ -100,6 +100,8 @@ def parse_psi_response(data: dict) -> dict:
         "TBT_ms": round(tbt) if tbt is not None else np.nan,
         "CLS": round(cls, 3) if cls is not None else np.nan,
         "CrUX_Field": field or "",
+        # URL cuối cùng Lighthouse đo được (khác URL gốc nghĩa là trang bị redirect)
+        "Final_URL": lh.get("finalDisplayedUrl") or lh.get("finalUrl") or "",
     }
 
 
@@ -185,6 +187,15 @@ def run_psi_loop(urls: list[str], fetch_fn: Callable[[str], dict], sleep_s: floa
 # --------------------------------------------------------------------------- #
 def merge_data(ga4: pd.DataFrame, psi: pd.DataFrame) -> pd.DataFrame:
     return pd.merge(ga4, psi, on="URL", how="left", validate="one_to_one")
+
+
+def count_redirects(merged: pd.DataFrame) -> int:
+    """Đếm số URL mà Lighthouse kết thúc ở một URL khác (bỏ qua khác biệt dấu '/' cuối)."""
+    if "Final_URL" not in merged:
+        return 0
+    f = merged["Final_URL"].fillna("").astype(str).str.rstrip("/")
+    u = merged["URL"].astype(str).str.rstrip("/")
+    return int(((f != "") & (f != u)).sum())
 
 
 def red_alert(merged: pd.DataFrame, max_score: float = 50, min_bounce: float = 70) -> pd.DataFrame:
@@ -372,6 +383,9 @@ def main(argv=None) -> int:
     merged = merge_data(ga4, psi)
     ok = merged["PageSpeed_Mobile"].notna()
     print(f"  -> {ok.sum()}/{len(merged)} URL có điểm PSI; {(~ok).sum()} URL lỗi khi đo.")
+    redirected = count_redirects(merged)
+    if redirected:
+        print(f"  ⚠ {redirected} URL bị redirect sang trang khác (xem cột Final_URL) — điểm PSI là của trang đích.")
     if ok.sum() >= 3:
         r = merged.loc[ok, "PageSpeed_Mobile"].corr(merged.loc[ok, "Bounce_Rate_%"])
         rs = merged.loc[ok, "PageSpeed_Mobile"].corr(merged.loc[ok, "Bounce_Rate_%"], method="spearman")
